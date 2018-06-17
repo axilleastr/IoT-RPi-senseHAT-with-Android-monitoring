@@ -1,0 +1,68 @@
+
+<resources>
+
+
+    <style name="GreenText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_main</item>
+        <item name="colorPrimaryDark">@color/background_main</item>
+        <item name="colorAccent">@color/background_main</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="IoTStarterTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/actionbar_text</item>
+    </style>
+
+    <style name="ActivityBackground">
+        <item name="android:background">@color/background_main</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:background">@color/background_actionbar</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <!-- ActionBar tabs text styles -->
+    <style name="MyActionBarTabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <style name="BigTextStyle">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="BottomButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:background">@color/background_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SmallButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/background_button</item>
+    </style>
+
+</resources>

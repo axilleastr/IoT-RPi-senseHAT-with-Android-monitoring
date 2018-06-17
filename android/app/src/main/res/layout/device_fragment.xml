@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background_main"
+    tools:context="com.example.axilleastr.iot_project_android.fragments.DeviceFragment">
+
+    <TextView
+        android:id="@+id/connectedDevice"
+        style="@style/MyActionBarTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/activity_setting_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_setting_margin"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Your SmartPhone is connected to IoT-Foundation"
+        android:textAlignment="center"
+        android:textColor="@color/red" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/Flash_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/activity_setting_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_setting_margin"
+        android:text="@string/flash_light"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Music_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/activity_setting_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_setting_margin"
+        android:text="@string/music"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Vibrate_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/activity_setting_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_setting_margin"
+        android:text="@string/vibrate"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/TurnOffFlash"
+        style="@style/SmallButton"
+        android:background="@color/red"
+        android:layout_gravity="center"
+        android:text="Turn Off Flash Light"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/Report"
+        style="@style/SmallButton"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:text="Report"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        style="@style/IoTStarterTheme"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/messages_received"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/messagesReceivedView"
+    />
+
+    <Button
+        android:id="@+id/Disconnect"
+        style="@style/BottomButton"
+        android:background="@color/grey"
+        android:layout_gravity="bottom"
+        android:text="Disconnect"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

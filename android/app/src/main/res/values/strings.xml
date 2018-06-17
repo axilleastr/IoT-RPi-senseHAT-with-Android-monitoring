@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">iot_project_android</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Generic Strings -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Error messages -->
+    <string name="broker_unavailable_check_connectivity">Server is unavailable. Please check your connectivity and try again</string>
+    <string name="exit">Exit</string>
+    <string name="retry">Retry</string>
+
+    <!-- Menu Actions -->
+    <string name="login_label">LOGIN</string>
+    <string name="iot_label">IOT</string>
+    <string name="log_label">LOG</string>
+    <string name="home_label">Open Home</string>
+    <string name="profiles_label">Open Profiles</string>
+    <string name="web_label">Open Quickstart</string>
+    <string name="clear_profiles_label">Clear Profiles</string>
+    <string name="clear_log_label">Clear Log</string>
+    <string name="tutorial_label">Open Tutorial</string>
+
+    <!-- Begin Login Fragment -->
+    <string name="showToken_button">Show Auth Token</string>
+    <string name="hideToken_button">Hide Auth Token</string>
+    <string name="useSSL_button">Use SSL</string>
+    <string name="activate_button">Activate Sensor</string>
+    <string name="deactivate_button">Deactivate Sensor</string>
+
+    <string name="device_id">DeviceID: -</string>
+    <string name="is_connected">Device is Connected to Ibm-IoT: No</string>
+    <string name="flash_light">Flash light state : Off</string>
+    <string name="music">Sound Alert state : Off</string>
+    <string name="vibrate">Vibration state : Off</string>
+
+
+    <string name="organization_hint">Organization ID</string>
+    <string name="device_id_hint">Device ID</string>
+    <string name="auth_token_hint">Auth Token</string>
+    <!-- End Login Fragment -->
+
+    <!-- Begin IoT Fragment -->
+    <string name="messages_published">Messages Published: 0</string>
+    <string name="messages_received">Messages Received: 0</string>
+    <string name="device_id_iot">Device ID: </string>
+    <string name="device_id_iot_value">Device ID</string>
+    <string name="send_text">Send Text</string>
+    <!-- End IoT Fragment -->
+
+    <!-- Begin Settings Activity -->
+    <string name="organization_setting">Organization: </string>
+    <string name="device_id_setting">Device ID: </string>
+    <string name="auth_token_setting">Auth Token: </string>
+
+    <string name="organization_value">Organization</string>
+    <string name="device_id_value">Device ID</string>
+    <string name="auth_token_value">Auth Token</string>
+    <!-- End Settings Activity -->
+
+    <string name="alert_dialog_title">Received Alert</string>
+    <string name="report_dialog_title">Received Report Message</string>
+
+    <!-- IoT Fragment dialog -->
+    <string name="send_text_title">Send Text Message</string>
+    <string name="send_text_text">Input message text to send.</string>
+    <string name="send_text_invalid">Text messages are disabled while connected to QuickStart.</string>
+    <!-- End IoT Fragment dialog -->
+
+    <!-- Login Fragment dialog -->
+    <string name="connect_props_title">Unable to connect</string>
+    <string name="connect_props_text">Organization ID, Device ID and Auth Token must be set in order to connect.</string>
+    <!-- End Login Fragment dialog -->
+
+</resources>
